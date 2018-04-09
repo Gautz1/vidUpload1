@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                             .build();
 
                     Request request=new Request.Builder()
-                            .url("http://123.201.55.20/testing/a.php")
+                            .url("your_path_here/a.php")
                             .post(request_body)
                             .build();
 
